@@ -1,0 +1,81 @@
+<button
+  class="uk-button uk-button-default mr-2"
+  type="button"
+  uk-toggle="target: #offcanvas-nav-primary"
+>
+  Primary Nav
+</button>
+ 
+<button
+  class="uk-button uk-button-default"
+  type="button"
+  uk-toggle="target: #offcanvas-nav"
+>
+  Default Nav
+</button>
+ 
+<div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav-center uk-margin-auto-vertical uk-nav uk-nav-primary">
+      <li class="uk-active"><a href="#">Active</a></li>
+      <li class="uk-parent">
+        <a href="#">Parent</a>
+        <ul class="uk-nav-sub">
+          <li><a href="#">Sub item</a></li>
+          <li><a href="#">Sub item</a></li>
+        </ul>
+      </li>
+      <li class="uk-nav-header">Header</li>
+      <li>
+        <a href="#"
+          ><span class="mr-2" uk-icon="ratio: 0.8; icon: table"></span> Item</a
+        >
+      </li>
+      <li>
+        <a href="#"
+          ><span class="mr-2" uk-icon="ratio: 0.8; icon: thumbnails"></span>
+          Item</a
+        >
+      </li>
+      <li class="uk-nav-divider"></li>
+      <li>
+        <a href="#"
+          ><span class="mr-2" uk-icon="ratio: 0.8; icon: trash"></span> Item</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
+ 
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav uk-nav-default">
+      <li class="uk-active"><a href="#">Active</a></li>
+      <li class="uk-parent">
+        <a href="#">Parent</a>
+        <ul class="uk-nav-sub">
+          <li><a href="#">Sub item</a></li>
+          <li><a href="#">Sub item</a></li>
+        </ul>
+      </li>
+      <li class="uk-nav-header">Header</li>
+      <li>
+        <a href="#"
+          ><span class="mr-2" uk-icon="ratio: 0.8; icon: table"></span> Item</a
+        >
+      </li>
+      <li>
+        <a href="#"
+          ><span class="mr-2" uk-icon="ratio: 0.8; icon: thumbnails"></span>
+          Item</a
+        >
+      </li>
+      <li class="uk-nav-divider"></li>
+      <li>
+        <a href="#"
+          ><span class="mr-2" uk-icon="ratio: 0.8; icon: trash"></span> Item</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>

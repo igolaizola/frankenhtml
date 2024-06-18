@@ -1,0 +1,36 @@
+<div class="uk-width-1-3@s uk-card">
+  <div class="uk-card-header">
+    <h3 class="uk-card-title">Create project</h3>
+    <p class="uk-margin-small-top uk-text-small text-muted-foreground">
+      Deploy your new project in one-click.
+    </p>
+  </div>
+  <div class="uk-card-body uk-padding-remove-top uk-padding-remove-bottom">
+    <div class="">
+      <label class="uk-form-label" for="name">Name</label>
+      <input
+        class="uk-input"
+        id="name"
+        type="text"
+        aria-describedby="name-help-block"
+        placeholder="Name"
+      />
+      <div id="name-help-block" class="uk-form-help">
+        The name of your project.
+      </div>
+    </div>
+ 
+    <div class="uk-margin">
+      <label class="uk-form-label" for="framework">Framework</label>
+      <select class="uk-select" name="framework" id="framework">
+        <option value="sveltekit">Sveltekit</option>
+        <option value="sveltekit">Astro</option>
+      </select>
+    </div>
+  </div>
+ 
+  <div class="uk-card-footer uk-flex uk-flex-between">
+    <button class="uk-button uk-button-default">Cancel</button>
+    <button class="uk-button uk-button-primary">Deploy</button>
+  </div>
+</div>
